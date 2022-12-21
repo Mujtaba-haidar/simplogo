@@ -1,0 +1,100 @@
+@media screen{
+max-width: 800px;
+}
+    
+
+*{
+    margin: 0;padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 0;padding: 0px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+
+.col-4{
+    background: #ddd;
+   
+}
+img{
+    width: 150px; height: 150px;
+    border-radius: 70px;
+    float: left;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 2px solid #000;
+    
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(48, 99, 99);
+}
+ul li{
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+}
+.icon{
+   padding: 5px;
+   margin: 5px;
+}
+
+.lang .percent {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000;
+    margin-top: 5px;
+}
+.lang .percent div{
+   
+    
+    height: 100%;
+    background: aqua;
+     
+}
+.text{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.col-8{
+    background: rgb(134, 207, 119);
+}
+.col-8 h3{
+    float: left;
+    font-weight: bold;
+    color: rgb(15, 3, 48);
+    border-bottom: 1px dotted #000;
+}
+.col-8 p{
+    text-transform: capitalize;
+}
+.rang .percent {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #000;
+    margin-top: 5px;
+}
+.rang .percent div{
+   
+    
+    height: 100%;
+    background: rgb(255, 115, 0);
+     
+}
